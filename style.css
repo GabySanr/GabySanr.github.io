@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Honk&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+  background-color: rgb(95, 173, 125);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Roboto Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 200px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Merriweather';
+  padding: 50px;
+
+}
+
+header ul li {
+  margin: 10px;
+}
+
+.container-fluid h1 {
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container-fluid p {
+  text-align: center;
+}
+
+.container-fluid img {
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.form-control {
+  background-color: #d582d8;
+  border-color: #000000;
+  bottom: unset;
+  color: #8643bd;
+}
+
+
+
+
+.container {
+  margin-top: 50px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: rgb(129, 180, 228);
+}
+
+
+.container table img {
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.btn-pink {
+  background-color: #d374e6;
+  /* Color rosa */
+  border-color: #d374e6;
+  /* Color del borde */
+  color: #ffffff;
+  /* Color del texto */
+}
+
+.btn-pink:hover {
+  background-color: #b061e6;
+  /* Cambio de color al pasar el cursor */
+  border-color: #0c0a0b;
+  /* Cambio de color del borde al pasar el cursor */
+}
+
+.galerycursos img {
+  max-width: 100%;
+  background-color: #8643bd;
+  padding: 80px 0;
+  max-width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+}
+
+.card {
+  background-color: #926faf;
+}
+
+.card img {
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
